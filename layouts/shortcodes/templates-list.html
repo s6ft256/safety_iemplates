@@ -1,0 +1,15 @@
+<div class="templates-grid">
+    {{ range .Site.Data.templates }}
+    <div class="template-card" data-category="{{ .category }}" data-tags="{{ delimit .tags "," }}">
+        <img src="{{ .image }}" alt="{{ .title }} Preview" class="template-preview">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description }}</p>
+        <p class="category">{{ .category }}</p>
+        <p class="format">{{ .format }} • {{ .size }}</p>
+        <div class="card-actions">
+            <a href="/templates/{{ .title | urlize }}/" class="btn btn-secondary">View Details</a>
+            <a href="{{ .file }}" download class="btn btn-primary">Download</a>
+        </div>
+    </div>
+    {{ end }}
+</div>

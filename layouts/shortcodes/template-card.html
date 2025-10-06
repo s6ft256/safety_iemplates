@@ -1,0 +1,12 @@
+{{ $template := index .Site.Data.templates (index (where .Site.Data.templates "title" .Get "name") 0) }}
+{{ if $template }}
+<div class="template-card">
+    <img src="{{ $template.image }}" alt="{{ $template.title }} Preview" class="template-preview">
+    <h3>{{ $template.title }}</h3>
+    <p>{{ $template.description }}</p>
+    <div class="card-actions">
+        <a href="/templates/{{ $template.title | urlize }}/" class="btn btn-secondary">View Details</a>
+        <a href="{{ $template.file }}" download class="btn btn-primary">Download</a>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="container">
+    <div class="template-detail">
+        <img src="{{ .Params.image }}" alt="{{ .Title }} Preview" class="template-preview-large">
+        <h1>{{ .Title }}</h1>
+        <p>{{ .Description }}</p>
+        <div class="template-meta">
+            <span class="category">{{ .Params.category }}</span>
+            <span class="format">{{ .Params.format }} • {{ .Params.size }}</span>
+        </div>
+        <div class="tags">
+            {{ range .Params.tags }}
+            <span class="tag">{{ . }}</span>
+            {{ end }}
+        </div>
+        <a href="{{ .Params.file }}" download class="btn btn-primary">Download {{ .Params.format }}</a>
+    </div>
+    <div class="template-content">
+        {{ .Content }}
+    </div>
+    {{ if .Params.featured }}
+    <div class="related-templates">
+        <h2>Related Templates</h2>
+        <div class="templates-grid">
+            {{ range where .Site.Data.templates "category" .Params.category }}
+            {{ if ne .title .Title }}
+            <div class="template-card">
+                <img src="{{ .image }}" alt="{{ .title }} Preview" class="template-preview">
+                <h3>{{ .title }}</h3>
+                <p>{{ .description }}</p>
+                <a href="/templates/{{ .title | urlize }}/" class="btn btn-secondary">View</a>
+                <a href="{{ .file }}" download class="btn btn-primary">Download</a>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

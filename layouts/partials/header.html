@@ -1,0 +1,12 @@
+<header class="site-header">
+    <div class="container">
+        <div class="logo">
+            <a href="/">{{ .Site.Title }}</a>
+        </div>
+        <nav class="main-nav">
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
+            {{ end }}
+        </nav>
+    </div>
+</header>

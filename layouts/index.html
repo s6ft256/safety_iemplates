@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="hero">
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+        <p>{{ .Site.Params.description }}</p>
+        <a href="/templates/" class="btn btn-primary">Browse Templates</a>
+    </div>
+</section>
+<div class="container">
+    {{ .Content }}
+    
+    <section class="featured-templates">
+        <h2>Featured Templates</h2>
+        <div class="templates-grid">
+            {{ range where .Site.Data.templates "featured" true }}
+            <div class="template-card">
+                <img src="{{ .image }}" alt="{{ .title }} Preview" class="template-preview">
+                <h3>{{ .title }}</h3>
+                <p>{{ .description }}</p>
+                <div class="card-actions">
+                    <a href="/templates/{{ .title | urlize }}/" class="btn btn-secondary">View Details</a>
+                    <a href="{{ .file }}" download class="btn btn-primary">Download</a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{ end }}

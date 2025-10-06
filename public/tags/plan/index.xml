@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plan on Safety Solutions</title>
+    <link>http://localhost:1313/tags/plan/</link>
+    <description>Recent content in Plan on Safety Solutions</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/plan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emergency Evacuation Plan</title>
+      <link>http://localhost:1313/templates/emergency-evacuation-plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/templates/emergency-evacuation-plan/</guid>
+      <description>&lt;h1 id=&#34;emergency-evacuation-plan&#34;&gt;Emergency Evacuation Plan&lt;/h1&gt;&#xA;&lt;p&gt;Develop comprehensive evacuation procedures to ensure the safety of all personnel during emergencies.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Facility layout diagrams&lt;/li&gt;&#xA;&lt;li&gt;Evacuation routes&lt;/li&gt;&#xA;&lt;li&gt;Assembly point designations&lt;/li&gt;&#xA;&lt;li&gt;Emergency contact information&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;a href=&#34;http://localhost:1313/files/emergency_evacuation_plan.pdf&#34; download class=&#34;btn btn-primary&#34;&gt;Download PDF&lt;/a&gt;</description>
+    </item>
+  </channel>
+</rss>

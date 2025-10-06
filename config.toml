@@ -1,0 +1,54 @@
+baseURL = "https://safetysolutions.com"
+languageCode = "en-us"
+title = "Safety Solutions"
+
+[params]
+  description = "Professional HSE templates for health, safety, and environment compliance."
+  author = "Safety Solutions"
+  # Colors
+  primaryColor = "#007bff"
+  secondaryColor = "#6c757d"
+  # Fonts
+  fontFamily = "Inter, sans-serif"
+  # Analytics
+  googleAnalytics = "G-XXXXXXXXXX"  # Replace with actual GA ID
+  # Payment
+  snipcartApiKey = "YOUR_SNIPCART_API_KEY"  # For Snipcart integration
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Templates"
+    url = "/templates/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

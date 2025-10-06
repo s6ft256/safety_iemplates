@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Record on Safety Solutions</title>
+    <link>http://localhost:1313/tags/record/</link>
+    <description>Recent content in Record on Safety Solutions</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/record/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Safety Training Record</title>
+      <link>http://localhost:1313/templates/safety-training-record/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/templates/safety-training-record/</guid>
+      <description>&lt;h1 id=&#34;safety-training-record&#34;&gt;Safety Training Record&lt;/h1&gt;&#xA;&lt;p&gt;Maintain accurate records of all safety training provided to employees, ensuring compliance and accountability.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Training session details&lt;/li&gt;&#xA;&lt;li&gt;Employee signatures&lt;/li&gt;&#xA;&lt;li&gt;Certification tracking&lt;/li&gt;&#xA;&lt;li&gt;Editable Word document&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;a href=&#34;http://localhost:1313/files/safety_training_record.docx&#34; download class=&#34;btn btn-primary&#34;&gt;Download DOCX&lt;/a&gt;</description>
+    </item>
+  </channel>
+</rss>

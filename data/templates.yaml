@@ -1,0 +1,119 @@
+- title: "Incident Report Form"
+  description: "Record workplace incidents efficiently with this editable DOCX form."
+  category: "Safety"
+  file: "/files/incident_report_form.docx"
+  format: "DOCX"
+  size: "120 KB"
+  image: "/images/incident_report_preview.png"
+  tags: ["incident", "report", "safety"]
+  featured: true
+
+- title: "Weekly Site Inspection Checklist"
+  description: "Comprehensive checklist for weekly site inspections and compliance checks."
+  category: "Inspection"
+  file: "/files/weekly_site_inspection.xlsx"
+  format: "XLSX"
+  size: "95 KB"
+  image: "/images/inspection_checklist_preview.png"
+  tags: ["inspection", "site", "audit"]
+  featured: false
+
+- title: "Risk Assessment Template"
+  description: "Identify and evaluate workplace risks with this detailed PDF template."
+  category: "Risk"
+  file: "/files/risk_assessment.pdf"
+  format: "PDF"
+  size: "150 KB"
+  image: "/images/risk_assessment_preview.png"
+  tags: ["risk", "assessment", "safety"]
+  featured: true
+
+- title: "Safety Training Record"
+  description: "Track employee safety training sessions and certifications."
+  category: "Training"
+  file: "/files/safety_training_record.docx"
+  format: "DOCX"
+  size: "85 KB"
+  image: "/images/training_record_preview.png"
+  tags: ["training", "record", "certification"]
+  featured: false
+
+- title: "Emergency Evacuation Plan"
+  description: "Create effective emergency evacuation plans for your facility."
+  category: "Safety"
+  file: "/files/emergency_evacuation_plan.pdf"
+  format: "PDF"
+  size: "200 KB"
+  image: "/images/evacuation_plan_preview.png"
+  tags: ["emergency", "evacuation", "plan"]
+  featured: true
+
+- title: "PPE Inspection Checklist"
+  description: "Inspect personal protective equipment with this comprehensive checklist."
+  category: "Inspection"
+  file: "/files/ppe_inspection_checklist.xlsx"
+  format: "XLSX"
+  size: "110 KB"
+  image: "/images/ppe_checklist_preview.png"
+  tags: ["ppe", "inspection", "equipment"]
+  featured: false
+
+- title: "Hazard Identification Form"
+  description: "Document and assess workplace hazards systematically."
+  category: "Risk"
+  file: "/files/hazard_identification_form.docx"
+  format: "DOCX"
+  size: "130 KB"
+  image: "/images/hazard_form_preview.png"
+  tags: ["hazard", "identification", "assessment"]
+  featured: false
+
+- title: "Audit Report Template"
+  description: "Generate professional HSE audit reports with this template."
+  category: "Audit"
+  file: "/files/audit_report_template.pdf"
+  format: "PDF"
+  size: "180 KB"
+  image: "/images/audit_report_preview.png"
+  tags: ["audit", "report", "compliance"]
+  featured: true
+
+- title: "Compliance Checklist"
+  description: "Ensure regulatory compliance with this detailed checklist."
+  category: "Audit"
+  file: "/files/compliance_checklist.xlsx"
+  format: "XLSX"
+  size: "140 KB"
+  image: "/images/compliance_checklist_preview.png"
+  tags: ["compliance", "checklist", "regulation"]
+  featured: false
+
+- title: "Incident Investigation Form"
+  description: "Investigate incidents thoroughly with this structured form."
+  category: "Safety"
+  file: "/files/incident_investigation_form.docx"
+  format: "DOCX"
+  size: "160 KB"
+  image: "/images/investigation_form_preview.png"
+  tags: ["incident", "investigation", "safety"]
+  featured: false
+
+- title: "Safety Meeting Minutes"
+  description: "Record minutes from safety meetings effectively."
+  category: "Training"
+  file: "/files/safety_meeting_minutes.pdf"
+  format: "PDF"
+  size: "90 KB"
+  image: "/images/meeting_minutes_preview.png"
+  tags: ["meeting", "minutes", "safety"]
+  featured: false
+
+- title: "Lockout Tagout Procedure"
+  description: "Standardize lockout/tagout procedures for equipment maintenance."
+  category: "Safety"
+  file: "/files/lockout_tagout_procedure.docx"
+  format: "DOCX"
+  size: "175 KB"
+  image: "/images/lockout_procedure_preview.png"
+  tags: ["lockout", "tagout", "procedure"]
+  featured: true

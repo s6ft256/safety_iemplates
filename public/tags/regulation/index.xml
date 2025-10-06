@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regulation on Safety Solutions</title>
+    <link>http://localhost:1313/tags/regulation/</link>
+    <description>Recent content in Regulation on Safety Solutions</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/regulation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compliance Checklist</title>
+      <link>http://localhost:1313/templates/compliance-checklist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/templates/compliance-checklist/</guid>
+      <description>&lt;h1 id=&#34;compliance-checklist&#34;&gt;Compliance Checklist&lt;/h1&gt;&#xA;&lt;p&gt;Verify compliance with HSE regulations using this comprehensive checklist.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Regulation-specific sections&lt;/li&gt;&#xA;&lt;li&gt;Compliance status tracking&lt;/li&gt;&#xA;&lt;li&gt;Evidence documentation&lt;/li&gt;&#xA;&lt;li&gt;Gap analysis&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;a href=&#34;http://localhost:1313/files/compliance_checklist.xlsx&#34; download class=&#34;btn btn-primary&#34;&gt;Download XLSX&lt;/a&gt;</description>
+    </item>
+  </channel>
+</rss>

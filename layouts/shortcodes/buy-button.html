@@ -1,0 +1,9 @@
+<button class="snipcart-add-item btn btn-primary"
+    data-item-id="{{ .Page.Title | urlize }}"
+    data-item-price="{{ .Page.Params.price }}"
+    data-item-url="{{ .Page.Permalink }}"
+    data-item-description="{{ .Page.Description }}"
+    data-item-name="{{ .Page.Title }}"
+    data-item-file-guid="{{ .Page.Params.file }}">
+    Buy Now - ${{ .Page.Params.price }}
+</button>
